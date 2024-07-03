@@ -100,6 +100,22 @@ header{
 }
 
 
+/*HISTORIA*/
+#histo-id{
+    background:linear-gradient(rgb(134, 134, 134) 2%, rgba(75, 75, 75, 0.438));
+    margin: 30px;
+    border-radius: 20px;
+    
+}
+
+#histo-p{
+    color: white;
+    font-size:x-large;
+    padding: 2rem;
+    text-align: center;
+}
+
+
 /*HOTELERIA GRID*/
 .hotel-item-img{
     width: 90%;
@@ -135,19 +151,61 @@ header{
 }
 
 
-/*HISTORIA*/
-#histo-id{
-    background:linear-gradient(rgb(134, 134, 134) 2%, rgba(75, 75, 75, 0.438));
-    margin: 30px;
-    border-radius: 20px;
-    
+/*GESTION DE HOTELES*/
+
+.subtitle{
+    color: white;
+    font-size: 1.5vw;
 }
 
-#histo-p{
-    color: white;
-    font-size:x-large;
-    padding: 2rem;
+#list{
+    background:linear-gradient(rgb(134, 134, 134) 2%, rgba(75, 75, 75, 0.438));
+    margin: 30px;
+    padding: 55px 250px;
+    border-radius: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    margin: 30px 0px;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #FFF;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+.table th,
+.table td {
+    padding: 8px; 
+    text-align: center;
+}
+.table th{
+    border-bottom: 1px solid #ffffff;
+}
+.table td{
+    border-bottom: 1px solid #4f4f4f;
+}
+
+#list-div-hotel{
+    width: 100%;
+}
+
+.item-hotel{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+h3{
+    align-self: center;
 }
 
 
